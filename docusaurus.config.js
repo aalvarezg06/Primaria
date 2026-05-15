@@ -91,35 +91,34 @@ const config = {
         },
         items: [
           {
-            type: 'dropdown',
-            label: 'Cursos',
+            label: '1º Primaria',
+            to: '/docs/category/1º-primaria',
             position: 'left',
-            items: [
-              {
-                label: '1º Primaria',
-                to: '/docs/category/1º-primaria',
-              },
-              {
-                label: '2º Primaria',
-                to: '/docs/category/2º-primaria',
-              },
-              {
-                label: '3º Primaria',
-                to: '/docs/category/3º-primaria',
-              },
-              {
-                label: '4º Primaria',
-                to: '/docs/category/4º-primaria',
-              },
-              {
-                label: '5º Primaria',
-                to: '/docs/category/5º-primaria',
-              },
-              {
-                label: '6º Primaria',
-                to: '/docs/category/6º-primaria',
-              },
-            ],
+          },
+          {
+            label: '2º Primaria',
+            to: '/docs/category/2º-primaria',
+            position: 'left',
+          },
+          {
+            label: '3º Primaria',
+            to: '/docs/category/3º-primaria',
+            position: 'left',
+          },
+          {
+            label: '4º Primaria',
+            to: '/docs/category/4º-primaria',
+            position: 'left',
+          },
+          {
+            label: '5º Primaria',
+            to: '/docs/category/5º-primaria',
+            position: 'left',
+          },
+          {
+            label: '6º Primaria',
+            to: '/docs/category/6º-primaria',
+            position: 'left',
           },
           {
             type: 'docSidebar',
