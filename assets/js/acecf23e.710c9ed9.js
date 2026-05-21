@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprimaria=self.webpackChunkprimaria||[]).push([["3220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/Primaria/blog","blogTitle":"Blog","authorsListPath":"/Primaria/blog/authors"}')}}]);
