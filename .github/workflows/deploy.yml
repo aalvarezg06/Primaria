@@ -4,29 +4,47 @@ on:
   push:
     branches:
       - main
+  # Permite ejecutar este flujo de trabajo manualmente desde la pestaña Actions
+  workflow_dispatch:
 
+# Configura los permisos del GITHUB_TOKEN para permitir el despliegue en GitHub Pages
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Permite solo un despliegue concurrente para evitar conflictos
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Configurar Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - name: Install dependencies
-        run: npm install
+      - name: Instalar dependencias
+        run: npm ci
 
-      - name: Build website
+      - name: Construir sitio web
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Subir artefacto para Pages
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          path: build
+
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
