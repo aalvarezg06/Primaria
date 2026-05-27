@@ -1,14 +1,6 @@
 ---
-title: "¡Proyecto de Fin de Etapa! - La Función de Relación"
+title: "¡Misión Cumplida! - La Función de Relación"
 sidebar_position: 3
-sidebar_label: "¡Proyecto de Fin de Etapa!"
-description: "Situación de aprendizaje: Creación de una campaña de concienciación sobre la salud mental y nerviosa."
----
-
-## ¡Misión: Mentes Sanas, Vidas Conectadas!
-
-Estamos en 6º curso y vuestra capacidad de análisis es muy alta. Vamos a realizar un proyecto con impacto real en nuestro centro escolar.
-
 ### El Reto
 Vuestra misión es diseñar una **Campaña de Salud para el Sistema Nervioso** dirigida a vuestros compañeros de cursos inferiores (1º y 2º).
 

@@ -1,14 +1,6 @@
 ---
-title: "¡Conocimiento Crítico! - La Función de Relación"
+title: "¡Aprendemos! - La Función de Relación"
 sidebar_position: 1
-sidebar_label: "¡Conocimiento Crítico!"
-description: "Estudio avanzado de cómo el ser humano percibe y reacciona al entorno en 6º de Primaria."
----
-
-# La Función de Relación: Conectados con el Mundo
-
-Como seres vivos, tenemos la capacidad de percibir lo que ocurre a nuestro alrededor y reaccionar de forma adecuada. Esto es vital para nuestra supervivencia.
-
 ## ¿Cómo nos relacionamos?
 La función de relación implica tres procesos fundamentales que trabajan en cadena:
 
