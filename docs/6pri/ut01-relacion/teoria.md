@@ -1,30 +1,45 @@
+# La Función de Relación
+
+## Aprendemos
+
+En 6º de Primaria trabajamos con **funciones de relación** que vinculan dos conjuntos de números. Una función asigna a cada elemento del **primer conjunto (dominio)** un único elemento del **segundo conjunto (codominio)**.
+
+- **Dominio:** Conjunto de los valores de entrada.
+- **Imagen:** Conjunto de los valores resultantes.
+- **Notación:** `f(x) = y` indica que la variable `x` del dominio se transforma en `y` del codominio.
+
+### Ejemplos típicos
+1. **Doblar un número:** `f(x) = 2·x`.
+2. **Sumar cinco:** `f(x) = x + 5`.
+3. **Restar el doble:** `f(x) = 2·x - 3`.
+
+### Propiedades clave
+- Cada **x** tiene **una única y**.
+- Dos valores diferentes de `x` pueden producir la **misma y** (no es necesario que sea invertible).
+
+## Practicamos (Ejercicios)
+
+1. Completa la tabla para la función `f(x) = x + 3`:
+| x | f(x) |
+|---|------|
+| 1 | ? |
+| 4 | ? |
+| 7 | ? |
+
+2. Dibuja en papel cuadriculado la representación gráfica de `f(x) = 2·x` para los valores `x = -2, -1, 0, 1, 2`.
+
+3. ¿Cuál de las siguientes expresiones **no** representa una función? Marca la respuesta correcta:
+   - a) `f(x) = x²`
+   - b) `f(x) = √x`
+   - c) `y = x²` y `y = -x²` para el mismo `x`
+
+## Misión Cumplida
+
+**Objetivo:** Diseña una mini‑campaña de concienciación sobre la importancia de **las funciones** en la vida diaria (ej.: calcular precios, medir distancias, programar videojuegos).
+
+- Elige **3 ejemplos reales** donde se use una función.
+- Crea una **infografía** (puedes usar papel, colores y recortes) que explique cada ejemplo con la fórmula correspondiente.
+- Presenta tu infografía al resto de la clase y explica cómo la función simplifica la tarea.
+
 ---
-title: "¡Aprendemos! - La Función de Relación"
-sidebar_position: 1
-## ¿Cómo nos relacionamos?
-La función de relación implica tres procesos fundamentales que trabajan en cadena:
-
-1. **Captación de información**: Los **órganos de los sentidos** (receptores) detectan estímulos del exterior o del interior.
-2. **Análisis y procesamiento**: El **Sistema Nervioso** (el cerebro) recibe la información, la interpreta y decide una respuesta.
-3. **Ejecución de la respuesta**: El **aparato locomotor** (músculos y huesos) o el **sistema endocrino** ejecutan la orden.
-
-```mermaid
-graph LR
-    E[Estímulo] --> R[Receptores / Sentidos]
-    R --> SN[Sistema Nervioso / Cerebro]
-    SN --> A[Aparato Locomotor / Respuesta]
-    SN --> SE[Sistema Endocrino / Hormonas]
-```
-
-## El Sistema Nervioso Central
-El cerebro es el "centro de control". Se divide en varias partes con funciones específicas:
-- **Cerebro**: Controla actos voluntarios y la memoria.
-- **Cerebelo**: Coordina el equilibrio y los movimientos.
-- **Bulbo raquídeo**: Controla funciones involuntarias (latidos del corazón, respiración).
-
-:::info Debate en clase
-¿Crees que un deportista de élite tiene más desarrollado el cerebelo o el cerebro? Justifica tu respuesta basándote en la coordinación de movimientos.
-:::
-
----
-**Sugerencia de imagen**: Un diagrama anatómico realista del sistema nervioso humano, destacando el encéfalo y la médula espinal con etiquetas técnicas.
+*Este contenido sigue la estructura "Teoría – Práctica – Misión" de la estrategia Docs‑as‑Code.*
