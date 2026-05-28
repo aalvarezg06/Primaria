@@ -1,6 +1,9 @@
 ---
 title: "¡Misión Cumplida! - La Función de Relación"
 sidebar_position: 3
+---
+
+
 ### El Reto
 Vuestra misión es diseñar una **Campaña de Salud para el Sistema Nervioso** dirigida a vuestros compañeros de cursos inferiores (1º y 2º).
 
@@ -9,7 +12,7 @@ Vuestra misión es diseñar una **Campaña de Salud para el Sistema Nervioso** d
 2. **Producto Final**: Podéis elegir entre:
    - Un **Podcast** de 3 minutos.
    - Una **Infografía digital** (puedes usar Canva o similar).
-   - Un **Video-tutorial** corto.
+   - Un **Video‑tutorial** corto.
 3. **Difusión**: Presentaremos los trabajos en el salón de actos el viernes.
 
 ### Rúbrica de Éxito
